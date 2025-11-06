@@ -1,0 +1,23 @@
+Implement Redux Toolkit for State Management in Shopping Cart -
+- Create a React application.
+- Display a list of products in the UI.
+- Install Redux Toolkit and React-Redux.
+- Set up a Redux store using configureStore().
+- Create a slice called cartSlice.
+- Define initial state for the cart (empty array or object).
+- Add actions in the slice for:
+- Adding items to the cart
+- Removing items from the cart
+- Updating item quantity
+  - Export the reducer from the slice and add it to the store.
+- Use Provider to wrap the React app with the Redux store.
+- Create a Cart component to show cart items.
+- Use useSelector() to read cart state from Redux.
+- Use useDispatch() to send actions to Redux.
+- Display each cart item’s name, price, and quantity.
+- Add buttons or controls to update quantity and remove items.
+- Test adding products to the cart.
+- Test updating quantities of items.
+- Test removing items from the cart.
+- Confirm that the cart state updates correctly.
+- Confirm that the UI reflects changes immediately.

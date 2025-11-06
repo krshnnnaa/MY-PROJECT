@@ -1,0 +1,21 @@
+Develop Real-Time Chat Application Using WebSocket Connections (Socket.io) – Expected Output
+- Create a Node.js backend using Express.
+- Install and set up Socket.io on the server.
+- Configure the server to accept WebSocket connections.
+- Handle events like user connection and disconnection.
+- Broadcast messages to all connected clients.
+- Start the server on a local port (e.g., 5000).
+- Create a React frontend application.
+- Install Socket.io client in React.
+- Connect the React app to the Socket.io backend.
+- Build a simple chat UI with:
+- Input for user name
+- Input for message
+- Send button
+- Emit messages from React to the server using Socket.io.
+- Receive messages from the server and update the UI.
+- Display all messages in real time without page refresh.
+- Show messages from all users in a shared chat room.
+- Test the app by opening it in multiple browser windows.
+- Confirm that messages appear instantly across all windows.
+- Confirm that user connection and disconnection events are handled properly.

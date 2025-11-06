@@ -1,0 +1,17 @@
+- Make a backend using Express.js.
+- Create a route called /api/products.
+- Return a list of products in JSON format.
+- Each product should have a name and a price.
+- Start the Express server on port 5000.
+- Make a frontend using React.
+- Create a component called ProductList.
+- Use useEffect() to run code when the component loads.
+- Use Axios to send a GET request to /api/products.
+- Save the response data using useState().
+- Show a loading message while waiting for data.
+- Show an error message if the request fails.
+- Display each product’s name and price on the screen.
+- Use a clean layout like a list or card.
+- Run the React app on port 3000.
+- Make sure React can fetch data from Express.
+- Check that the product list appears correctly in the browser.
